@@ -48,7 +48,7 @@ export default function Incidents() {
             <View style={styles.header}>
                 <Image source={logoImg} />
                 <Text>
-                    Toastal de <Text style={styles.headerTextBold}> {total} casos</Text>.
+                    Total: <Text style={styles.headerTextBold}> {total} casos</Text>.
                 </Text>
             </View>
 
